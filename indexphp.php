@@ -1,7 +1,7 @@
         <?php
 		
 		$header = array();
-		$header [] = '';
+		$header [] = 'Authorization: JWT';
 		$curl = curl_init();
 		
 		curl_setopt($curl,CURLOPT_URL,'');

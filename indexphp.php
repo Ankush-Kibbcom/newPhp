@@ -1,11 +1,5 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>HOME</title>
-    </head>
-    <body>
         <?php
-       echo "Hello, world! This is my first PHP project!";
+        $token = openssl_random_pseudo_bytes(64);
+        $token = bin2hex($token);
+        echo $token;
         ?>
-    </body>
-</html>
